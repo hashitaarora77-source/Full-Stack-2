@@ -1,0 +1,93 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Full screen background */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+}
+
+/* Glass Card */
+.glass-card {
+  width: 350px;
+  padding: 2rem;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: white;
+}
+
+/* Heading */
+.glass-card h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+/* Counter Display */
+.counter-display {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+/* Buttons */
+button {
+  padding: 0.8rem;
+  border-radius: 12px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Decrement */
+.btn-dec {
+  background: #ff4b5c;
+  color: white;
+}
+
+.btn-dec:hover {
+  background: #e63e4f;
+  transform: scale(1.05);
+}
+
+/* Increment */
+.btn-inc {
+  background: #00c9a7;
+  color: white;
+}
+
+.btn-inc:hover {
+  background: #00b494;
+  transform: scale(1.05);
+}
+
+/* Reset */
+.btn-reset {
+  background: #f9f871;
+  color: #333;
+}
+
+.btn-reset:hover {
+  background: #f0f04a;
+  transform: scale(1.03);
+}
